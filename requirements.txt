@@ -1,0 +1,25 @@
+# Bot de Telegram para monitoreo de eBay
+# Requiere Python 3.8+
+
+# Web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Telegram Bot
+python-telegram-bot>=20.0
+
+# Scheduling y tiempo
+schedule>=1.2.0
+
+# Base de datos (incluido en Python standard library)
+# sqlite3 - ya incluido
+
+# Utilidades adicionales
+python-dotenv>=1.0.0
+
+# Para manejo de fechas y tiempo más robusto
+python-dateutil>=2.8.0
+
+# Para logging mejorado (opcional)
+colorlog>=6.7.0
